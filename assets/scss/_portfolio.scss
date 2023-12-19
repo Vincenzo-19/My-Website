@@ -1,0 +1,23 @@
+.card {
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    border: 3px solid $secondary-color;
+}
+
+.card-image {
+    height: 50% !important;
+}
+
+@media (max-width: 576px) {
+    .card {
+        transition: all 0.3s;
+    }
+    
+    .card:hover {
+        transform: scale(1.03);
+        border: 3px solid $secondary-color;
+    }
+}
