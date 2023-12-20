@@ -3,11 +3,9 @@
 @import "custom";
 @import "typography";
 @import "buttons";
-@import "boxes";
-@import "section";
-@import "article";
 @import "intro";
 @import "portfolio";
+@import "navbar";
 
 * {
     margin: 0;
@@ -19,44 +17,7 @@ body {
     background-color: white;
 }
 
-/*navbar*/
 
-.navbar {
-    background-color: $primary-color;
-}
-
-.navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2876, 171, 62, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.navbar-light .navbar-toggler {
-    border: 2px solid $secondary-color;
-}
-
-.navbar-light .navbar-toggler:hover {
-    border: 3px solid $secondary-color;
-}
-
-.navbar-light .navbar-toggler:active {
-    border: 2px solid $third-color;
-}
-
-.nav-link {
-    color: white !important;
-    margin-left: 15px;
-} 
-
-.nav-link:hover {
-    color: #b79e9e !important;
-}
- 
-/*bg-image*/
-
-
-
-/*bg-image*/
-
-/*Informazioni*/
 
 
 

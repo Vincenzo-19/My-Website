@@ -11879,20 +11879,6 @@ h2, .h2 {
   background-color: #141924;
 }
 
-.small.box {
-  height: auto;
-  border: 3px solid red;
-}
-
-section {
-  height: auto;
-}
-
-article {
-  background-color: #141924;
-  box-shadow: 0px 0px 25px grey;
-}
-
 .bg-image {
   background-image: url("https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   height: 50vh;
@@ -11912,6 +11898,11 @@ article {
 
 .subtitle {
   font-size: 1.5rem;
+}
+
+article {
+  background-color: #141924;
+  box-shadow: 0px 0px 25px grey;
 }
 
 .card {
@@ -11936,17 +11927,6 @@ article {
     border: 3px solid #5aad3c;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: white;
-}
-
-/*navbar*/
 .navbar {
   background-color: #141924;
 }
@@ -11976,6 +11956,12 @@ body {
   color: #b79e9e !important;
 }
 
-/*bg-image*/
-/*bg-image*/
-/*Informazioni*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
