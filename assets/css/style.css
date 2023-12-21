@@ -11956,6 +11956,48 @@ article {
   color: #b79e9e !important;
 }
 
+.form {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 15px !important;
+  border: 2px solid #141924 !important;
+}
+
+.form-container-md {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 595px;
+  border: 2px solid #141924;
+  border-radius: 15px;
+  box-shadow: 30px 30px 100px #006d32 !important;
+  background: #31a9bc;
+  background: -webkit-linear-gradient(to right, rgba(65, 236, 188, 0.5), rgba(51, 30, 115, 0.5));
+  background: linear-gradient(to right, rgba(49, 169, 188, 0.5), rgba(51, 30, 115, 0.5));
+}
+
+.form-container-md:hover {
+  transition: 0.3s;
+  background: #31a9bc;
+  background: -webkit-linear-gradient(to right, rgba(65, 236, 188, 0.5), rgba(51, 30, 115, 0.5));
+  background: linear-gradient(to right, rgba(49, 169, 188, 0.5), rgba(51, 30, 115, 0.5));
+}
+
+@media (min-width: 700px) {
+  #contatti {
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 * {
   margin: 0;
   padding: 0;
