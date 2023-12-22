@@ -11978,7 +11978,6 @@ article {
   height: 595px;
   border: 2px solid #141924;
   border-radius: 15px;
-  box-shadow: 30px 30px 100px #006d32 !important;
   background: #31a9bc;
   background: -webkit-linear-gradient(to right, rgba(65, 236, 188, 0.5), rgba(51, 30, 115, 0.5));
   background: linear-gradient(to right, rgba(49, 169, 188, 0.5), rgba(51, 30, 115, 0.5));
@@ -11998,6 +11997,10 @@ article {
     margin-left: auto;
   }
 }
+footer {
+  border-top: 3px solid #141924;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12005,5 +12008,5 @@ article {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(229, 251, 240) !important;
 }
