@@ -1,0 +1,27 @@
+.bg-image-cv {
+    background-image: url("https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+  }
+
+.cv-mask {
+  width: 800px;
+  height: 780px;
+  background: #31a9bc;
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(68, 73, 81, 0.85),
+    rgba(82, 84, 87, 0.85)
+  );
+  background: linear-gradient(
+    to right,
+    rgba(68, 73, 81, 0.85),
+    rgba(68, 73, 81, 0.85)
+  );
+
+  border-radius: 50px;
+  border: 3px solid $primary-color;
+}
+
+.b-col {
+    font-weight: bold;
+}

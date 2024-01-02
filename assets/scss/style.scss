@@ -8,6 +8,8 @@
 @import "navbar";
 @import "contatti";
 @import "footer";
+@import "intro-cv";
+@import "informazioni";
 
 * {
     margin: 0;
@@ -16,7 +18,7 @@
 }
 
 body {
-    background-color: rgb(229, 251, 240) !important;
+    background-color: whitesmoke !important;
 }
 
 
