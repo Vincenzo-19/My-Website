@@ -4,8 +4,7 @@
   }
 
 .cv-mask {
-  width: 800px;
-  height: 780px;
+  width: 100%;
   background: #31a9bc;
   background: -webkit-linear-gradient(
     to right,
@@ -18,10 +17,16 @@
     rgba(68, 73, 81, 0.85)
   );
 
-  border-radius: 50px;
   border: 3px solid $primary-color;
 }
 
 .b-col {
     font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .cv-mask {
+      width: 100%;
+      height: 70%;
+  }
 }

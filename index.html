@@ -4,44 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vincenzo Nurcato - Homepage</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="assets/node_modules/bootstrap/dist/css/bootstrap.css"
-    />
-    <script
-      type="text/javascript"
-      src="assets/node_modules/@emailjs/browser/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init("INUonq6dZDXvjetBh");
-      })();
-    </script>
-    <script type="text/javascript">
-      window.onload = function () {
-        document
-          .getElementById("contact-form")
-          .addEventListener("submit", function (event) {
-            event.preventDefault();
-            this.contact_number.value = (Math.random() * 100000) | 0;
-            emailjs
-              .sendForm("contactform-website", "template_bqn1o6d", "#Myform")
-              .then(
-                function (response) {
-                  console.log("SUCCESS!", response.status, response.text);
-                },
-                function (error) {
-                  console.log("FAILED...", error);
-                }
-              );
-          });
-      };
-    </script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/node_modules/bootstrap/dist/css/bootstrap.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">(function(){emailjs.init("PUT HERE YOUR PUBLIC KEY");})();</script>
+    <script src="assets/js/contact-form.js"></script>
   </head>
   <body>
     <header id="nav" class="sticky-top">
-      <!--navbar-->
       <nav class="navbar navbar-light navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand ms-5" href="#">
@@ -84,11 +54,9 @@
           </div>
         </div>
       </nav>
-      <!--navbar-->
     </header>
 
     <main>
-      <!--intro-->
       <section id="intro">
         <div class="bg-image">
           <div class="mask">
@@ -111,9 +79,7 @@
           </div>
         </div>
       </section>
-      <!--intro-->
 
-      <!--informazioni-->
       <section id="Informazioni" class="my-5 py-3">
         <div class="container small-box column justify-content-center">
           <div
@@ -156,9 +122,7 @@
           </div>
         </div>
       </section>
-      <!--informazioni-->
 
-      <!--portfolio-->
       <section id="portfolio">
         <article class="my-5 pt-3 pb-5">
           <div class="container">
@@ -204,9 +168,7 @@
           </div>
         </article>
       </section>
-      <!--portfolio-->
 
-      <!--contatti-->
       <section id="contatti" class="my-5 py-5">
         <div class="form-container-md d-flex justify-content-center">
           <div class="form row mt-5 mx-5 mb-4">
@@ -214,7 +176,7 @@
               <form id="contact-form">
                 <h2 class="text-center mb-3">Contattami</h2>
                 <div class="mb-4">
-                  <label for="InputText" class="form-label" id="name"
+                  <label for="user_name" class="form-label" 
                     >Nome</label
                   >
                   <input
@@ -222,22 +184,12 @@
                     class="form-control"
                     placeholder="Inserisci il tuo nome"
                     name="user_name"
+                    id="user_name"
                     required
                   />
                 </div>
                 <div class="mb-4">
-                  <label for="InputText" class="form-label" id="surname"
-                    >Cognome</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Inserisci il tuo cognome"
-                    name="user-surname"
-                  />
-                </div>
-                <div class="mb-4">
-                  <label for="emailValue" class="form-label" id="email"
+                  <label for="user_email" class="form-label"
                     >Email</label
                   >
                   <input
@@ -245,32 +197,32 @@
                     class="form-control"
                     placeholder="Inserisci la tua email"
                     name="user_email"
+                    id="user_email"
                     required
                   />
                 </div>
                 <div class="mb-4">
-                  <label for="Textarea" class="form-label" id="message"
+                  <label for="message" class="form-label" 
                     >Messaggio</label
                   >
                   <textarea
                     class="form-control"
                     placeholder="Scrivi qui..."
                     name="message"
+                    id="message"
                     required
                   ></textarea>
                 </div>
                 <div class="d-flex justify-content-center mt-3">
-                  <button type="submit" class="button">Invia</button>
+                  <input type="submit" class="button" value="Invia">
                 </div>
               </form>
             </div>
           </div>
         </div>
       </section>
-      <!--contatti-->
     </main>
 
-    <!--footer-->
     <footer class="mt-5 pt-4">
       <div class="container-fluid">
         <div class="row">
@@ -316,7 +268,6 @@
         <p>Copyright © 2023 by Vincenzo Nurcato | All Rights Reserved.</p>
       </div>
     </footer>
-    <!--footer-->
   </body>
   <script src="assets/node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </html>
