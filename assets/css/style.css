@@ -11858,7 +11858,11 @@ textarea.form-control-lg {
 }
 h2, .h2 {
   color: #141924;
-  font-size: 2.5rem !important;
+  font-size: 3rem !important;
+}
+
+p {
+  font-size: 20px !important;
 }
 
 .button {
