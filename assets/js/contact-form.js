@@ -3,8 +3,8 @@ function sendMail(){
     if (document.getElementById("contact-form").checkValidity()){
 
         let params = {
-            firstname: document.getElementById("user_name").value,
-            email: document.getElementById("user_email").value,
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
             message: document.getElementById("message").value,
         };
 

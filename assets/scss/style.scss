@@ -10,7 +10,6 @@
 @import "footer";
 @import "intro-cv";
 @import "informazioni";
-@import "cv-navbar";
 
 * {
     margin: 0;
@@ -22,6 +21,11 @@ body {
     background-color: whitesmoke !important;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --bs-body-font-family: 'Roboto', sans-serif !important;
+};
 
 
 
