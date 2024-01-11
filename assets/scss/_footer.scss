@@ -32,3 +32,29 @@ footer {
     transform: rotate(10deg);
     transition: 0.15s;
 }
+
+@media (max-width: 576px) {
+    .bi-github{
+        margin-right: 14px;
+        color: $secondary-color;
+        transition: none;
+    }
+
+    .bi-github:hover {
+        cursor: pointer;
+        transform: none;
+        transition: none;
+    }
+
+    .bi-linkedin {
+        margin-left: 14px;
+        color: $secondary-color;
+        transition: none;
+    }
+    
+    .bi-linkedin:hover {
+        cursor: pointer;
+        transform: none;
+        transition: none;
+    }
+}
