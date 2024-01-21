@@ -16,6 +16,10 @@ article {
     height: 50% !important;
 }
 
+.card-title {
+    font-weight: bold;
+}
+
 @media (max-width: 576px) {
     .card {
         transition: all 0.3s;

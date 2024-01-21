@@ -11862,9 +11862,14 @@ h2, .h2 {
 }
 
 p {
-  font-size: 20px !important;
+  font-size: 20px;
 }
 
+@media (max-width: 576px) {
+  p {
+    font-size: 18px !important;
+  }
+}
 .button {
   border-radius: 20px;
   border: 2px solid #5aad3c;
@@ -11921,6 +11926,10 @@ article {
 
 .card-image {
   height: 50% !important;
+}
+
+.card-title {
+  font-weight: bold;
 }
 
 @media (max-width: 576px) {
@@ -12023,6 +12032,32 @@ footer {
   transition: 0.15s;
 }
 
+@media (max-width: 576px) {
+  .bi-github {
+    margin-right: 14px;
+    color: #5aad3c;
+    transition: none;
+  }
+  .bi-github:hover {
+    cursor: pointer;
+    transform: none;
+    transition: none;
+    width: 32px;
+    height: 32px;
+  }
+  .bi-linkedin {
+    margin-left: 14px;
+    color: #5aad3c;
+    transition: none;
+  }
+  .bi-linkedin:hover {
+    cursor: pointer;
+    transform: none;
+    transition: none;
+    width: 32px;
+    height: 32px;
+  }
+}
 .bg-image-cv {
   background-image: url("https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   height: auto;
