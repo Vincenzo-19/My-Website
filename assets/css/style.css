@@ -11937,8 +11937,8 @@ article {
     transition: all 0.3s;
   }
   .card:hover {
-    transform: scale(1.03);
-    border: 3px solid #5aad3c;
+    transform: scale(1);
+    border: 1px solid white;
   }
 }
 .navbar {
