@@ -1,0 +1,3 @@
+[submodule "submodules/Counter"]
+	path = submodules/Counter
+	url = https://github.com/Vincenzo-19/JS-basics-Project
