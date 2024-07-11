@@ -1,3 +1,3 @@
-[submodule "submodules/Counter"]
-	path = submodules/Counter
-	url = url = git@github.com:My Portfolio/Counter.git 
+[submodule "Counter"]
+	path = Counter
+	url = https://github.com/Vincenzo-19/JS-basics-Project.git
