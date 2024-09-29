@@ -11865,15 +11865,9 @@ p {
   font-size: 20px;
 }
 
-@media (min-width: 320px) and (max-width: 576px) {
-  .maintitle {
-    font-size: 3rem !important;
-  }
-  h2, .h2 {
-    font-size: 2rem !important;
-  }
+@media (max-width: 576px) {
   p {
-    font-size: 16px;
+    font-size: 18px !important;
   }
 }
 .button {
@@ -11925,17 +11919,8 @@ article {
   box-shadow: 0px 0px 25px grey;
 }
 
-.cardLink {
-  display: contents !important;
-  display: flex;
-  justify-content: center;
-}
-
 .card {
   transition: all 0.3s;
-  overflow: hidden;
-  height: 415px !important;
-  border: 3px solid #5aad3c !important;
 }
 
 .card:hover {
@@ -11944,33 +11929,13 @@ article {
 }
 
 .card-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: 50% !important;
 }
 
 .card-title {
   font-weight: bold;
 }
 
-@media (min-width: 320px) and (max-width: 376px) {
-  .card-row {
-    display: flex;
-    justify-content: center;
-  }
-  .card-column {
-    width: 95% !important;
-  }
-}
-@media (min-width: 376px) and (max-width: 426px) {
-  .card-row {
-    display: flex;
-    justify-content: center;
-  }
-  .card-column {
-    width: 90% !important;
-  }
-}
 @media (max-width: 576px) {
   .card {
     transition: all 0.3s;
@@ -11978,24 +11943,6 @@ article {
   .card:hover {
     transform: scale(1);
     border: 1px solid white;
-  }
-}
-@media (min-width: 426px) and (max-width: 767px) {
-  .card-row {
-    display: flex;
-    justify-content: center;
-  }
-  .card-column {
-    width: 90% !important;
-  }
-}
-@media (min-width: 768px) {
-  .card-row {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .card-column {
-    width: 45% !important;
   }
 }
 .navbar {
@@ -12118,11 +12065,6 @@ footer {
 .bg-image-cv {
   background-image: url("/assets/img/background-image.webp");
   height: auto;
-  box-shadow: 0px 0px 25px grey;
-  background-size: cover !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  width: 100% !important;
 }
 
 .cv-mask {
