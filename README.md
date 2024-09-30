@@ -6,6 +6,8 @@
 
 <img src="./assets/img/Screenshot-Intro.webp" alt="Screenshot-Intro">
 
+<p>All’interno del portfolio, ci sono diverse sezioni:</p>
+
 <ul>
     <li><strong>Informazioni</strong>: Una sezione dedicata a fornire informazioni su di me.</li>
     <li><strong>Portfolio</strong>: Una sezione dove mostro i miei progetti.</li>
