@@ -1,6 +1,27 @@
-# My Portfolio
-Questo è il mio Portfolio Personale realizzato solo con HTML e CSS, per il mio master Back-end Developer con Start2Impact.
+<h1>Portfolio</h1>
 
-Presentazione PDF: https://1drv.ms/b/s!Ap3YpoCxPvThz0HZGTA6opwBOlzt?e=mVUiCm
+<h2>Descrizione del progetto</h2>
 
-Il mio Sito web: https://vincenzonurcatodev.com/
+<p>Questo è il mio primo progetto, che consiste nella creazione di un portfolio personale utilizzando solo HTML e CSS da mostrare alle aziende.</p>
+
+<img src="./assets/img/Screenshot-Intro.webp" alt="Screenshot-Intro">
+
+<ul>
+    <li><strong>Informazioni</strong>: Una sezione dedicata a fornire informazioni su di me.</li>
+    <li><strong>Portfolio</strong>: Una sezione dove mostro i miei progetti.</li>
+    <li><strong>Contatti</strong>: Una sezione dove è possibile contattarmi.</li>
+    <li><strong>Curriculum</strong>: Una sezione dove è presente il mio curriculum.</li>
+</ul>
+
+Qui sotto c'è il link per il Portfolio⬇️
+
+https://vincenzonurcatodev.com/
+
+Qui sotto c'è il link per la presentazione⬇️
+
+https://1drv.ms/p/c/2151af0b03d46d87/EYdt1AMLr1EggCEwAQAAAAABylbp07hxjuXpBXVXddUvtg?e=af0b46
+
+<h2>Tecnologie utilizzate</h2>
+
+- <strong>HTML</strong>
+- <strong>CSS</strong>
