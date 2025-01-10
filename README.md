@@ -17,7 +17,7 @@
 
 Qui sotto c'è il link per il Portfolio⬇️
 
-https://vincenzonurcatodev.com/
+https://vincenzo-19.github.io/My-Website/
 
 Qui sotto c'è il link per la presentazione⬇️
 
@@ -25,5 +25,5 @@ https://1drv.ms/p/c/2151af0b03d46d87/EYdt1AMLr1EggCEwAQAAAAABylbp07hxjuXpBXVXddU
 
 <h2>Tecnologie utilizzate</h2>
 
-- <strong>HTML</strong>
-- <strong>CSS</strong>
+-   <strong>HTML</strong>
+-   <strong>CSS</strong>
