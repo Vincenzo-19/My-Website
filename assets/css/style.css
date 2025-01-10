@@ -11895,11 +11895,14 @@ p {
   background-color: #141924;
 }
 
-#intro {
+.bg-image {
+  background-image: url("/assets/img/background-img.webp");
   height: 50vh;
   box-shadow: 0px 0px 25px grey;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
   width: 100% !important;
-  background-color: #141924;
 }
 
 .mask {
@@ -12113,7 +12116,7 @@ footer {
   }
 }
 .bg-image-cv {
-  background-image: url("/assets/img/background-image.webp");
+  background-image: url("/assets/img/background-img.webp");
   height: auto;
   box-shadow: 0px 0px 25px grey;
   background-size: cover !important;
